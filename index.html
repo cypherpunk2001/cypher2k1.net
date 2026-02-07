@@ -230,7 +230,7 @@
                 mascotSpawned = true;
 
                 try {
-                    const { ShijimaManager } = await import('./Shijima-Web/src/index.js');
+                    const { ShijimaManager } = await import('./shijima-web-mascot/src/index.js');
 
                     const manager = new ShijimaManager({
                         allowBreeding: false,
@@ -239,7 +239,7 @@
 
                     // Spawn mascot at random x position
                     const x = Math.random() * window.innerWidth;
-                    await manager.spawn('./Shijima-Web/demo/mascot-cypherpunk/', { x, y: 0 });
+                    await manager.spawn('./shijima-web-mascot/demo/mascot-cypherpunk/', { x, y: 0 });
 
                     // Cooldown for ceiling jump (once per 5 minutes)
                     let lastCeilingJump = 0;

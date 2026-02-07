@@ -1,5 +1,7 @@
 # Shijima Web
 
+> **Note:** This is an unmaintained experimental fork. For the actively maintained version, see [Shijima-Web](https://github.com/pixelomer/Shijima-Web).
+
 Desktop mascots for the web! A JavaScript library that brings animated mascot characters to your website. Based on the [Shijima-Qt](https://github.com/pixelomer/Shijima-Qt) desktop application.
 
 ![Shijima Web Screenshot](Screenshot.png)
