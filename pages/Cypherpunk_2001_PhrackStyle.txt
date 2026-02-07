@@ -1,0 +1,181 @@
+
+===============================================================================
+=                                                                             =
+=   C Y P H E R P U N K   2 0 0 1                                             =
+=                                                                             =
+=   a future that already failed                                              =
+=                                                                             =
+===============================================================================
+
+
+        "the system didn't crash.
+         it just stopped caring."
+
+
+-------------------------------------------------------------------------------
+[0x00] PREFACE
+-------------------------------------------------------------------------------
+
+this is not a game about tomorrow.
+tomorrow already happened.
+it was patched, monetized, deprecated, and abandoned.
+
+what remains is a city that still runs,
+a wilderness that no longer should,
+and players who refuse to log out.
+
+
+-------------------------------------------------------------------------------
+[0x01] THE CITY
+-------------------------------------------------------------------------------
+
+neon does not mean alive.
+light does not mean safe.
+
+the city watches itself through you.
+
+streets loop.
+tunnels repeat.
+signage flickers like corrupted scripture.
+
+advertisements whisper:
+    BUY
+    OBEY
+    REMEMBER
+
+everyone belongs to something here.
+even if they swear they don't.
+
+especially if they swear they don't.
+
+
+-------------------------------------------------------------------------------
+[0x02] THE WILDERNESS
+-------------------------------------------------------------------------------
+
+this is not nature.
+this is abandonment.
+
+broken infrastructure glowing in the dark,
+systems that never shut down because no one was left
+to turn them off.
+
+the air hums.
+packets drop.
+rules thin out.
+
+this is where reputations are written
+without witnesses.
+
+
+-------------------------------------------------------------------------------
+[0x03] FACTIONS
+-------------------------------------------------------------------------------
+
+no heroes.
+no flags.
+no clean lines.
+
+only crews.
+cells.
+ideologues.
+survivors.
+
+you don't join them.
+you drift.
+they notice.
+they remember.
+
+
+-------------------------------------------------------------------------------
+[0x04] REPUTATION
+-------------------------------------------------------------------------------
+
+not a number.
+not a bar.
+not a grind.
+
+reputation is memory.
+
+doors open because someone remembers.
+doors close because someone else never forgot.
+
+the system does not forgive.
+it just caches.
+
+
+-------------------------------------------------------------------------------
+[0x05] THE FRACTURE (TIME MACHINE)
+-------------------------------------------------------------------------------
+
+not a vehicle.
+not a reset.
+not a save point.
+
+a fracture.
+
+the same streets,
+re-rendered in an older language.
+
+simpler colors.
+warmer sounds.
+myth instead of brutality.
+
+nostalgia is not the goal.
+archaeology is.
+
+
+-------------------------------------------------------------------------------
+[0x06] LIGHT / DARK
+-------------------------------------------------------------------------------
+
+this is not day and night.
+
+this is clarity and distortion.
+
+some truths only appear in the glow.
+others only in shadow.
+
+ask yourself:
+what changes when you see clearly?
+what changes when you don't?
+
+
+-------------------------------------------------------------------------------
+[0x07] MULTIPLAYER
+-------------------------------------------------------------------------------
+
+you are never alone.
+you are never comforted.
+
+others pass through your screen.
+few pass through your memory.
+
+connection without safety.
+presence without relief.
+
+
+-------------------------------------------------------------------------------
+[0x08] CORE LOOP
+-------------------------------------------------------------------------------
+
+you survive.
+you adapt.
+you leave traces.
+
+this is not a power fantasy.
+this is a persistence fantasy.
+
+
+-------------------------------------------------------------------------------
+[0xFF] FINAL PROMPT
+-------------------------------------------------------------------------------
+
+if the future already broke...
+
+what are you still doing here?
+
+
+===============================================================================
+EOF
+===============================================================================

@@ -1,0 +1,59 @@
+
+-------------------------------------------------------------------------------
+[0x0C] FABRICATION   ( S M I T H I N G )
+-------------------------------------------------------------------------------
+
+
+        "distance is a luxury.
+         weight is a guarantee."
+
+
+ fabrication is recomposition.
+
+ scrap becomes armor.
+ metal becomes proximity violence.
+
+ melee weapons are honest.
+ they require commitment.
+ they do not negotiate distance.
+
+ when power fails,
+ weight still matters.
+
+
+ fabrication creates:
+
+ WEAPONS
+     pipes, blades, bludgeons, improvised and deliberate
+     damage scales with material quality
+     the best weapons have names and histories
+
+ ARMOR
+     plating, padding, salvaged composites
+     reduces incoming damage, adds weight
+     looking protected makes you a target
+
+ TOOLS
+     extraction picks, salvage cutters, ignition kits
+     better tools mean faster gathering
+     tool quality gates resource access
+
+ COMPONENTS
+     parts for advanced crafting
+     trade goods with stable value
+     the economy runs on fabrication
+
+
+ the rustborn are the best fabricators.
+ their workshops are neutral ground.
+ bring materials, pay a fee, receive quality.
+ or learn the skill yourself
+ and owe nothing.
+
+ at high levels,
+ you don't just make gear.
+ you make the gear that makes other gear.
+
+ monopolies are possible.
+ monopolies are remembered.
+ someone will always try to break them.

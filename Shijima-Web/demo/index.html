@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shijima Web Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      color: white;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .header p {
+      opacity: 0.9;
+      font-size: 1.1em;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.2s;
+      backdrop-filter: blur(5px);
+    }
+
+    button:hover {
+      background: rgba(255,255,255,0.3);
+      border-color: white;
+      transform: translateY(-2px);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.5);
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      backdrop-filter: blur(5px);
+    }
+
+    .checkbox-label:hover {
+      background: rgba(255,255,255,0.3);
+      border-color: white;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    .info {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+
+    .info h2 {
+      margin-bottom: 15px;
+    }
+
+    .info ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .info li:last-child {
+      border-bottom: none;
+    }
+
+    .status {
+      text-align: center;
+      padding: 20px;
+      font-size: 1.1em;
+    }
+
+    .code-example {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px auto;
+      max-width: 600px;
+      overflow-x: auto;
+    }
+
+    .code-example pre {
+      color: #e0e0e0;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 0.9em;
+      white-space: pre-wrap;
+    }
+
+    .code-example code {
+      color: #7ee787;
+    }
+
+    #error-display {
+      background: rgba(255,0,0,0.3);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Shijima Web</h1>
+    <p>Desktop mascots for the web - drag them around!</p>
+  </div>
+
+  <div class="controls">
+    <button id="btn-spawn">Spawn Mascot</button>
+    <button id="btn-spawn3">Spawn 3</button>
+    <button id="btn-dismiss">Dismiss All</button>
+    <label class="checkbox-label">
+      <input type="checkbox" id="chk-breeding" checked>
+      Allow Breeding
+    </label>
+  </div>
+
+  <div class="status">
+    Mascots: <span id="count">0</span>
+  </div>
+
+  <div id="error-display"></div>
+
+  <div class="info">
+    <h2>How to Use</h2>
+    <ul>
+      <li><strong>Click &amp; Drag</strong> - Pick up and move mascots</li>
+      <li><strong>Release</strong> - Drop them and watch them fall</li>
+      <li><strong>Throw</strong> - Release while moving for momentum</li>
+      <li><strong>Watch</strong> - They'll walk, climb, and explore!</li>
+    </ul>
+  </div>
+
+  <div class="code-example">
+    <pre><code>import { ShijimaManager } from 'shijima-web';
+
+const manager = new ShijimaManager();
+await manager.spawn('/path/to/mascot/');</code></pre>
+  </div>
+
+  <script type="module">
+    // Show errors on page
+    function showError(msg) {
+      const el = document.getElementById('error-display');
+      el.style.display = 'block';
+      el.textContent = 'Error: ' + msg;
+      console.error(msg);
+    }
+
+    try {
+      const { ShijimaManager } = await import('../src/index.js');
+
+      // Create manager
+      const manager = new ShijimaManager();
+      window.manager = manager;  // For debugging
+
+      // Update count display
+      function updateCount() {
+        document.getElementById('count').textContent = manager.count;
+      }
+
+      // Spawn a mascot at random position
+      async function spawnMascot() {
+        try {
+          const x = Math.random() * window.innerWidth;
+          await manager.spawn('./mascot/', { x, y: 0 });
+          updateCount();
+        } catch (e) {
+          showError('Failed to spawn: ' + e.message);
+        }
+      }
+
+      // Spawn multiple mascots
+      async function spawnMultiple(n) {
+        for (let i = 0; i < n; i++) {
+          await spawnMascot();
+        }
+      }
+
+      // Dismiss all
+      function dismissAll() {
+        manager.dismissAll();
+        updateCount();
+      }
+
+      // Attach event listeners
+      document.getElementById('btn-spawn').addEventListener('click', spawnMascot);
+      document.getElementById('btn-spawn3').addEventListener('click', () => spawnMultiple(3));
+      document.getElementById('btn-dismiss').addEventListener('click', dismissAll);
+
+      // Breeding checkbox
+      const breedingCheckbox = document.getElementById('chk-breeding');
+      breedingCheckbox.addEventListener('change', () => {
+        manager.allowBreeding = breedingCheckbox.checked;
+        console.log('Allow breeding:', manager.allowBreeding);
+      });
+
+      // Initial mascot
+      await spawnMascot();
+
+      // Update count periodically
+      setInterval(updateCount, 1000);
+
+      console.log('Shijima Web initialized successfully!');
+
+    } catch (e) {
+      showError('Failed to initialize: ' + e.message + '\n' + e.stack);
+    }
+  </script>
+</body>
+</html>

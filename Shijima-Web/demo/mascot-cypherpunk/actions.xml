@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Mascot xmlns="http://www.group-finity.com/Mascot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.group-finity.com/Mascot Mascot.xsd">
+
+	<ActionList>
+		<Action Name="Look" Type="Embedded" Class="com.group_finity.mascot.action.Look" />
+		<Action Name="Offset" Type="Embedded" Class="com.group_finity.mascot.action.Offset" />
+
+		<!-- Standing -->
+		<Action Name="Stand" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk2.png" ImageAnchor="50,177" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="Walk" Type="Move" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk2.png" ImageAnchor="50,177" Velocity="-2,0" Duration="10" />
+				<Pose Image="/cypherpunk3.png" ImageAnchor="62,176" Velocity="-2,0" Duration="10" />
+			</Animation>
+		</Action>
+
+		<Action Name="Run" Type="Move" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk2.png" ImageAnchor="50,177" Velocity="-4,0" Duration="6" />
+				<Pose Image="/cypherpunk3.png" ImageAnchor="62,176" Velocity="-4,0" Duration="6" />
+			</Animation>
+		</Action>
+
+		<Action Name="Dash" Type="Move" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk2.png" ImageAnchor="50,177" Velocity="-8,0" Duration="4" />
+				<Pose Image="/cypherpunk3.png" ImageAnchor="62,176" Velocity="-8,0" Duration="4" />
+			</Animation>
+		</Action>
+
+		<!-- Sitting -->
+		<Action Name="Sit" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk6.png" ImageAnchor="56,138" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="SitWithLaptop" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk26.png" ImageAnchor="58,140" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<!-- Laying -->
+		<Action Name="Sprawl" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk9.png" ImageAnchor="116,100" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="Sleep" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk45.png" ImageAnchor="82,121" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="Creep" Type="Move" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk42.png" ImageAnchor="107,130" Velocity="-1,0" Duration="8" />
+				<Pose Image="/cypherpunk18.png" ImageAnchor="90,100" Velocity="-1,0" Duration="8" />
+			</Animation>
+		</Action>
+
+		<!-- Wall -->
+		<Action Name="GrabWall" Type="Stay" BorderType="Wall">
+			<Animation>
+				<Pose Image="/cypherpunk12.png" ImageAnchor="46,146" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="ClimbWall" Type="Move" BorderType="Wall">
+			<Animation>
+				<Pose Image="/cypherpunk12.png" ImageAnchor="46,146" Velocity="0,-2" Duration="8" />
+			</Animation>
+		</Action>
+
+		<Action Name="ClimbWallDown" Type="Move" BorderType="Wall">
+			<Animation>
+				<Pose Image="/cypherpunk12.png" ImageAnchor="46,146" Velocity="0,2" Duration="8" />
+			</Animation>
+		</Action>
+
+		<!-- Ceiling -->
+		<Action Name="GrabCeiling" Type="Stay" BorderType="Ceiling">
+			<Animation>
+				<Pose Image="/cypherpunk17.png" ImageAnchor="70,20" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="ClimbCeiling" Type="Move" BorderType="Ceiling">
+			<Animation>
+				<Pose Image="/cypherpunk17.png" ImageAnchor="70,20" Velocity="-2,0" Duration="8" />
+			</Animation>
+		</Action>
+
+		<!-- Falling -->
+		<Action Name="Jumping" Type="Embedded" Class="com.group_finity.mascot.action.Jump" VelocityParam="25">
+			<Animation>
+				<Pose Image="/cypherpunk48.png" ImageAnchor="80,186" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="Falling" Type="Embedded" Class="com.group_finity.mascot.action.Fall"
+			RegistanceX="0.05" RegistanceY="0.1" Gravity="2">
+			<Animation>
+				<Pose Image="/cypherpunk48.png" ImageAnchor="80,186" Velocity="0,0" Duration="50" />
+			</Animation>
+		</Action>
+
+		<Action Name="Bouncing" Type="Animate" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk6.png" ImageAnchor="56,138" Velocity="0,0" Duration="4" />
+				<Pose Image="/cypherpunk2.png" ImageAnchor="50,177" Velocity="0,0" Duration="4" />
+			</Animation>
+		</Action>
+
+		<!-- Dragging -->
+		<Action Name="Pinched" Type="Embedded" Class="com.group_finity.mascot.action.Dragged">
+			<Animation>
+				<Pose Image="/cypherpunk25.png" ImageAnchor="63,144" Velocity="0,0" Duration="5" />
+			</Animation>
+		</Action>
+
+		<Action Name="Resisting" Type="Embedded" Class="com.group_finity.mascot.action.Regist">
+			<Animation>
+				<Pose Image="/cypherpunk25.png" ImageAnchor="63,144" Velocity="0,0" Duration="5" />
+				<Pose Image="/cypherpunk11.png" ImageAnchor="65,137" Velocity="0,0" Duration="5" />
+				<Pose Image="/cypherpunk25.png" ImageAnchor="63,144" Velocity="0,0" Duration="5" />
+				<Pose Image="/cypherpunk11.png" ImageAnchor="65,137" Velocity="0,0" Duration="5" />
+			</Animation>
+		</Action>
+
+		<!-- Special Actions -->
+		<Action Name="Drink" Type="Animate" BorderType="Floor">
+			<Animation>
+				<Pose Image="/cypherpunk47.png" ImageAnchor="70,147" Velocity="0,0" Duration="30" />
+			</Animation>
+		</Action>
+
+	</ActionList>
+
+	<!-- Behavior Actions -->
+	<ActionList>
+
+		<!-- ALWAYS REQUIRED -->
+		<Action Name="Fall" Type="Sequence" Loop="false">
+			<ActionReference Name="Falling"/>
+			<Action Type="Select">
+				<Action Type="Sequence" Condition="${mascot.environment.floor.isOn(mascot.anchor) ||
+					mascot.environment.activeIE.topBorder.isOn(mascot.anchor) }">
+					<ActionReference Name="Bouncing"/>
+					<ActionReference Name="Stand" Duration="${20+Math.random()*30}" />
+				</Action>
+				<ActionReference Name="GrabWall" Duration="30" />
+			</Action>
+		</Action>
+
+		<!-- ALWAYS REQUIRED -->
+		<Action Name="Dragged" Type="Sequence" Loop="true">
+			<ActionReference Name="Pinched"/>
+			<ActionReference Name="Resisting" />
+		</Action>
+
+		<!-- ALWAYS REQUIRED -->
+		<Action Name="Thrown" Type="Sequence" Loop="false">
+			<ActionReference Name="Falling" InitialVX="${mascot.environment.cursor.dx}" InitialVY="${mascot.environment.cursor.dy}"/>
+			<Action Type="Select">
+				<Action Type="Sequence" Condition="${mascot.environment.floor.isOn(mascot.anchor) || mascot.environment.activeIE.topBorder.isOn(mascot.anchor) }">
+					<ActionReference Name="Bouncing"/>
+					<ActionReference Name="Stand" Duration="${20+Math.random()*30}" />
+				</Action>
+				<ActionReference Name="GrabWall" Duration="30" />
+			</Action>
+		</Action>
+
+		<Action Name="StandUp" Type="Sequence" Loop="false">
+			<ActionReference Name="Stand" Duration="${100+Math.random()*150}" />
+		</Action>
+
+		<Action Name="SitDown" Type="Sequence" Loop="false">
+			<ActionReference Name="Sit" Duration="${150+Math.random()*200}" />
+		</Action>
+
+		<Action Name="LieDown" Type="Sequence" Loop="false">
+			<ActionReference Name="Sprawl" Duration="${100+Math.random()*150}" />
+		</Action>
+
+		<Action Name="TakeNap" Type="Sequence" Loop="false">
+			<ActionReference Name="Sleep" Duration="${150+Math.random()*200}" />
+		</Action>
+
+		<Action Name="WorkOnLaptop" Type="Sequence" Loop="false">
+			<ActionReference Name="SitWithLaptop" Duration="${200+Math.random()*300}" />
+		</Action>
+
+		<Action Name="HoldOntoWall" Type="Sequence" Loop="false">
+			<ActionReference Name="GrabWall" Duration="${80+Math.random()*120}" />
+		</Action>
+
+		<Action Name="FallFromWall" Type="Sequence" Loop="false">
+			<ActionReference Name="Offset" X="${mascot.lookRight ? -1 : 1}" />
+			<ActionReference Name="Stand" />
+		</Action>
+
+		<Action Name="HoldOntoCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="GrabCeiling" Duration="${80+Math.random()*120}" />
+		</Action>
+
+		<Action Name="FallFromCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="Offset" Y="1" />
+			<ActionReference Name="Stand" />
+		</Action>
+
+		<Action Name="WalkAlongWorkAreaFloor" Type="Sequence" Loop="false">
+			<ActionReference Name="Walk" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<Action Name="RunAlongWorkAreaFloor" Type="Sequence" Loop="false">
+			<ActionReference Name="Run" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<Action Name="CrawlAlongWorkAreaFloor" Type="Sequence" Loop="false">
+			<ActionReference Name="Creep" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<!-- Wall climbing - go up -->
+		<Action Name="ClimbUpWall" Type="Sequence" Loop="false">
+			<ActionReference Name="ClimbWall" TargetY="${mascot.environment.workArea.top + 50 + Math.random()*(mascot.environment.workArea.height/2)}" />
+		</Action>
+
+		<!-- Wall climbing - go to ceiling -->
+		<Action Name="ClimbWallToCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="ClimbWall" TargetY="#{mascot.environment.workArea.top+20}" />
+			<ActionReference Name="Offset" Y="-20" />
+			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<!-- Ceiling crawling -->
+		<Action Name="CrawlAlongCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<!-- Jump to ceiling with angle and crawl -->
+		<Action Name="JumpToCeiling" Type="Sequence" Loop="false">
+			<ActionReference Name="Jumping" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" TargetY="${mascot.environment.workArea.top}" />
+			<ActionReference Name="GrabCeiling" Duration="${10+Math.random()*20}" />
+			<ActionReference Name="ClimbCeiling" TargetX="${mascot.environment.workArea.left+100+Math.random()*(mascot.environment.workArea.width-200)}" />
+		</Action>
+
+		<!-- Walk to wall and climb -->
+		<Action Name="WalkToLeftWallAndClimb" Type="Sequence" Loop="false">
+			<ActionReference Name="Run" TargetX="#{mascot.environment.workArea.left}" />
+			<ActionReference Name="ClimbWall" TargetY="${mascot.environment.workArea.top + 50 + Math.random()*(mascot.environment.workArea.height/2)}" />
+		</Action>
+
+		<Action Name="WalkToRightWallAndClimb" Type="Sequence" Loop="false">
+			<ActionReference Name="Run" TargetX="#{mascot.environment.workArea.right}" />
+			<ActionReference Name="ClimbWall" TargetY="${mascot.environment.workArea.top + 50 + Math.random()*(mascot.environment.workArea.height/2)}" />
+		</Action>
+
+		<Action Name="DrinkBreak" Type="Sequence" Loop="false">
+			<ActionReference Name="Stand" Duration="${10+Math.random()*20}" />
+			<ActionReference Name="Drink" />
+			<ActionReference Name="Stand" Duration="${10+Math.random()*20}" />
+		</Action>
+
+		<Action Name="ChaseMouse" Type="Sequence" Loop="false">
+			<ActionReference Name="Dash" TargetX="${ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random()/2 }" />
+			<ActionReference Name="Dash" TargetX="${ mascot.anchor.x+(mascot.environment.cursor.x-mascot.anchor.x)*Math.random() }" />
+			<ActionReference Name="Look" LookRight="${mascot.anchor.x &lt; mascot.environment.cursor.x}" />
+		</Action>
+
+	</ActionList>
+
+</Mascot>

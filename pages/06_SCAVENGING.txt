@@ -1,0 +1,59 @@
+
+-------------------------------------------------------------------------------
+[0x06] SCAVENGING   ( F I S H I N G )
+-------------------------------------------------------------------------------
+
+
+        "hunger doesn't negotiate.
+         neither should you."
+
+
+ scavenging does not provide food.
+
+ scavenging provides:
+     biomass
+     protein
+     things that were alive recently
+
+ water is compromised.
+ ecosystems adapted badly.
+ nothing comes out clean.
+
+ what you pull up is calories,
+ not permission.
+
+ eat it raw if you want.
+ the system will remember.
+
+
+ scavenge sources:
+
+ DRAINAGE POOLS
+     mutated fish, edible fungi, algae mats
+     low risk, low quality
+     starter zones, reliable but weak
+
+ INDUSTRIAL RUNOFF
+     larger catches, contamination risk
+     better protein, worse side effects
+     cooking becomes mandatory
+
+ WILDERNESS WATERWAYS
+     pre-collapse species, some intact
+     best yields, dangerous territory
+     other scavengers compete violently
+
+ UNDERCITY RESERVOIRS
+     forgotten stockpiles, sealed tanks
+     rare finds, expedition required
+     what you find might find you first
+
+
+ higher scavenging skill:
+     faster catches, better identification
+     ability to spot contamination before consumption
+     access to deeper, richer sources
+
+ the wasteland provides.
+ the wasteland does not explain
+ what you're eating.

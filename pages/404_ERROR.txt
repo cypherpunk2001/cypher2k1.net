@@ -1,0 +1,40 @@
+
+-------------------------------------------------------------------------------
+[0x404] ERROR: ACCESS DENIED
+-------------------------------------------------------------------------------
+
+
+        "looking for something?
+         it was never here."
+
+
+ ERROR: FAILED TO RETRIEVE FRAGMENT
+ TARGET: unknown
+ REASON: FRAGMENT_NOT_FOUND
+
+===============================================================================
+
+ the archive is incomplete.
+ some fragments are lost.
+ some were never saved.
+
+ this is expected.
+ this is the point.
+
+===============================================================================
+
+ you are looking for something
+ that was never uploaded,
+ or was deleted before you arrived,
+ or exists only in a timeline
+ you no longer have access to.
+
+ the system does not apologize.
+ the system does not explain.
+
+ try another path.
+ or don't.
+
+ // archived by error404
+ // tip.it/fragments/lost
+

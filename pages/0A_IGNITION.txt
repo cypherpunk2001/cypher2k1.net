@@ -1,0 +1,57 @@
+
+-------------------------------------------------------------------------------
+[0x0A] IGNITION   ( F I R E M A K I N G )
+-------------------------------------------------------------------------------
+
+
+        "light attracts.
+         that's the problem."
+
+
+ fire is not primitive.
+ fire is control.
+
+ ignition provides:
+     light
+     heat
+     signal
+     temporary power
+
+ lighting something means choosing visibility.
+
+ warmth keeps you alive.
+ attention gets you killed.
+
+
+ ignition uses:
+
+ COOKING FIRES
+     turns raw scavenge into safe rations
+     essential for health regeneration
+     smoke visible, location compromised
+
+ HEAT SOURCES
+     survival in cold zones, wilderness nights
+     damage over time without warmth
+     shared fires build temporary trust
+
+ SIGNAL FLARES
+     emergency beacon, extraction request
+     calls attention (all kinds)
+     faction-specific signals exist
+
+ POWER CELLS
+     charged via ignition, spent via use
+     fuels lights, tools, energy weapons
+     the real currency of the undercity
+
+
+ higher ignition skill:
+     faster fires, less fuel consumed
+     cleaner burns (less smoke, less attention)
+     ability to charge better cells
+
+ fire in the wilderness is a beacon.
+ fire in the undercity is survival.
+ fire in the wrong place
+ is an invitation.

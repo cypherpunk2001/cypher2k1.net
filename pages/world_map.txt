@@ -1,0 +1,415 @@
+
+-------------------------------------------------------------------------------
+[0x16] WORLD MAP
+-------------------------------------------------------------------------------
+
+
+        "the map is not the territory.
+         but the territory was overwritten."
+
+
+ five cities remain.
+ one wasteland endures.
+ the loop is the only path
+ that doesn't lead to error.
+
+
+===============================================================================
+                              T H E   L O O P
+===============================================================================
+
+
+             BOOTYARD → KERNEL CITY → NULLGATE
+                 ↑                        ↓
+             DRAINNET ← ← GARRISON ← ← ← ←
+
+
+                        +-----------------+
+                        |                 |
+                        |    NULLZONE     |
+                        |   (wilderness)  |
+                        |                 |
+                        +-----------------+
+                               ↑
+                           NULLGATE
+
+
+
+===============================================================================
+[BOOTYARD]   S T A R T E R   H U B
+===============================================================================
+
+
+        "everyone here is new.
+         even the people who've been here ten years."
+
+
+ where abandoned logistics became housing
+ and never stopped being a logistics problem.
+
+ container-stacked streets.
+ cracked loading docks.
+ a canal that still moves
+ because the pumps outlasted the people.
+
+ the air smells like wet cardboard,
+ diesel, and cheap solvent.
+
+
+ FUNCTION:
+     onboarding zone
+     basic scavenging spots
+     cooking without contamination (mostly)
+     early ignition (burn barrels, heat coils)
+     starter quests
+
+ NPCS:
+     fixers
+     dock clerks
+     med vendors
+     one tired archivist
+     who keeps telling you
+     not to trust clean-looking doors
+
+ STORY HOOK:
+     bootyard's "public terminal" is always on.
+     it shouldn't be.
+     every night at 02:01
+     it prints a receipt-sized strip of text
+     that doesn't match any job queue.
+
+     people pin the strips to walls like prayers.
+
+     one of them has your name on it.
+     dated tomorrow.
+
+
+
+===============================================================================
+[KERNEL CITY]   C A P I T A L   /   M A R K E T
+===============================================================================
+
+
+        "the city behaves like a memory system.
+         it opens for some and silently fails for others."
+
+
+ the part of the world that still believes it's in charge.
+ not because it's powerful,
+ but because it has the most intact interfaces.
+
+ buildings wrapped in signage like bandages.
+ streets that loop slightly wrong,
+ as if the navigation mesh was patched
+ and never rebuilt.
+
+ in the center: a plaza of terminals and glass.
+ an economy of tokens, favors, cached permissions.
+ loud. bright. relentlessly observed.
+
+
+ FUNCTION:
+     primary exchange (the plaza)
+     secure storage / banking
+     high-traffic multiplayer hub
+     major questlines
+     advanced fabrication access
+     faction presence (KERNEL CITY faction)
+
+ FACTION: KERNEL CITY
+     bureaucrats, merchants, interface keepers
+     they believe in process
+     they believe in records
+     they believe in you
+     only if you're in the system
+
+ STORY HOOK:
+     a faction inside kernel city
+     is rewriting reputations.
+     not hacking them—
+     re-recording them, like an old cassette.
+
+     people who were infamous are "clean."
+     people who never existed
+     are suddenly on every list.
+
+     the city doesn't correct it.
+     it propagates it.
+
+
+
+===============================================================================
+[NULLGATE]   T H R E S H O L D   /   E D G E   T O W N
+===============================================================================
+
+
+        "the siren doesn't warn you about danger.
+         it announces you."
+
+
+ where the map stops being polite.
+ the last serviced checkpoint.
+ the last place where anyone pretends
+ rules are universal.
+
+ harsh lighting. utilitarian.
+ streets wide enough for vehicles
+ that no longer come.
+
+ the locals are trainers, mercs,
+ and people who lost something in the north
+ and came back wrong.
+
+
+ FUNCTION:
+     combat training
+     projectiles training
+     wilderness preparation
+     pvp-adjacent culture
+     risk tutorials
+     serious salvage (composite scraps, frame parts)
+     last stop before nullzone
+
+ ECONOMY:
+     ammo
+     blades
+     batteries
+     information
+
+ STORY HOOK:
+     nullgate's warning siren triggers randomly.
+     no pattern. no storms. no incursions.
+
+     old-timers swear it's not a malfunction.
+     they say it's reacting to someone's name
+     entering the wilderness level range.
+
+     it doesn't warn you about danger.
+     it announces you.
+
+
+
+===============================================================================
+[GARRISON]   A U T H O R I T Y   /   F O R T R E S S
+===============================================================================
+
+
+        "garrison is not safe.
+         it's controlled. that's different."
+
+
+ bright floodlights. clean angles.
+ scanners that still work.
+ people who speak in policies
+ even when they're flirting.
+
+ the streets are orderly
+ because disorder is expensive here.
+ every door has a camera.
+ every vendor is licensed.
+
+
+ FUNCTION:
+     high-tier fabrication
+     regulated extraction contracts
+     faction storylines
+     "law" quests
+     social pressure zone
+     reputation as passport
+
+ FACTION: GARRISON
+     enforcers, regulators, architects of compliance
+     they have resources
+     they have structure
+     they have territory
+     they want order (their order)
+
+ STORY HOOK:
+     garrison is running
+     on a legacy authorization server
+     that no one can replace.
+
+     the admin account is still active.
+     but the person it belongs to is dead.
+
+     their credentials are the closest thing
+     this world has to a crown.
+
+     several groups are quietly trying
+     to impersonate a ghost.
+
+
+
+===============================================================================
+[DRAINNET]   S H A D O W   D O C K S   /   L O W   T R U S T
+===============================================================================
+
+
+        "everything is available.
+         nothing is clean."
+
+
+ where water and data both go
+ when nobody wants to claim them.
+
+ low, wet, crowded with cables,
+ vents, and illegal signal repeaters.
+
+ the neon here is dimmer, older, more desperate.
+ the people are friendly
+ in the way that means they're measuring you.
+
+
+ FUNCTION:
+     black market
+     anomaly services
+     contraband trades
+     rumor economy
+     "optional cooking" culture
+     (sealed rations, counterfeit nutrients,
+      synth meat that may or may not be safe)
+
+ TONE:
+     intimate and predatory
+     the best deals are the ones
+     that never happened
+
+ STORY HOOK:
+     drainnet has a door
+     that appears only when
+     you've been forgotten by the system—
+     when your reputation cache desyncs
+     and the city stops "seeing" you.
+
+     people call it the leak.
+
+     if you step through,
+     you're in a version of the streets
+     with warmer colors and simpler sounds.
+
+     not nostalgia.
+     older rendering.
+     archaeology.
+
+
+
+===============================================================================
+[NULLZONE]   W I L D E R N E S S
+===============================================================================
+
+
+        "the rules thin out
+         because the enforcement layer never loads."
+
+
+ not nature. not freedom.
+ abandonment running at full voltage.
+
+ infrastructure with no off switch.
+ pylons sparking in the rain.
+ substations humming like beasts in the dark.
+ the air tastes metallic.
+
+
+ FUNCTION:
+     pvp enabled (full loot)
+     rare extraction nodes
+     high-risk salvage
+     anomaly events
+     reputation forged without witnesses
+
+ MECHANICS:
+     level ranges increase heading north
+     deeper = better loot, worse odds
+     your body drops everything
+     others can take it
+     there is no customer service
+
+ LEVEL ZONES:
+     nullzone edge (lvl 1-20)
+     mid nullzone (lvl 20-40)
+     deep nullzone (lvl 40+)
+
+
+ STORY HOOK:
+     deep in the nullzone,
+     there's a neighborhood
+     still lit like a party.
+
+     music plays from somewhere
+     with no power source.
+
+     it's not a safe zone,
+     but nobody fights there.
+     everyone who attacks first
+     disconnects.
+
+     people call it the courtesy bug.
+
+     nobody knows if it's a glitch
+     or the last remaining piece
+     of morality in the code.
+
+
+
+===============================================================================
+                         F A C T I O N   T E R R I T O R Y
+===============================================================================
+
+
+ KERNEL CITY (faction)
+     territory: kernel city proper
+     values: process, records, interface
+     they remember everything
+     especially what you wish they'd forget
+
+ GARRISON (faction)
+     territory: garrison district
+     values: order, compliance, control
+     they help you
+     but never for free
+
+
+ neutral zones:
+     bootyard (starter protection)
+     nullgate (threshold culture)
+     drainnet (too corrupt to claim)
+
+ contested:
+     nullzone (no faction, no rules)
+
+
+
+===============================================================================
+                              N A V I G A T I O N
+===============================================================================
+
+
+ the loop:
+     bootyard → kernel city → nullgate
+         ↑                        ↓
+     drainnet ← ← garrison ← ← ← ←
+
+ travel options:
+     walk (free, slow, dangerous)
+     transit (costs credits, connects hubs)
+     displacement (anomaly skill, costs corruption)
+
+ safe zones:
+     bootyard (full protection)
+     kernel city plaza (enforced)
+     garrison core (controlled)
+
+ contested zones:
+     drainnet (anything goes, quietly)
+     nullgate outskirts (pvp-adjacent)
+
+ wilderness:
+     nullzone (full loot pvp)
+     the further north, the worse it gets
+
+
+===============================================================================
+EOF // WORLD_MAP
+===============================================================================
+

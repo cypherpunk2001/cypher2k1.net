@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+[0x00] CYPHERPUNK_2001 // SPEC
+-------------------------------------------------------------------------------
+
+A massive multiplayer online role-playing game inspired by RuneScape Classic, with added cyberpunk aesthetic and questline. We're taking the core formula that made early MMOs successful—simple combat, skilling, exploration—and stripping out the archaic friction points that don't hold up today. No waiting 3 seconds to eat food. No clicking through endless menus to do basic things. Just the satisfying loop of fighting, looting, leveling, and exploring with other players.
+
+
+-------------------------------------------------------------------------------
+[0x01] GAMEPLAY
+-------------------------------------------------------------------------------
+
+Real-time combat in a collapsed cypherpunk wasteland. Security drones, rogue cyborgs, corporate enforcers—survivors and scavengers fighting over scraps. Beat them down, earn XP, watch your numbers climb. Core skills to train: combat proficiency, endurance, technical aptitude. Each fight matters because the wasteland doesn't forgive weakness.
+
+Loot spawns in abandoned buildings, drops from hostiles, fills your inventory. Scavenge better gear, hit harder, survive longer. Log out whenever—your character and all your progress persist.
+
+
+-------------------------------------------------------------------------------
+[0x02] WHY RAYLIB?
+-------------------------------------------------------------------------------
+
+Simple, fast, no bullshit. raylib gives us cross-platform 2D graphics without the bloat of a full game engine. No editor to fight with, no licensing fees, no framework opinions about how games should work. Just a clean C library we can call from any language. Perfect for a project that might change its entire tech stack.
+
+
+-------------------------------------------------------------------------------
+[0x03] WHY COMMON LISP?
+-------------------------------------------------------------------------------
+
+Rapid prototyping. We can iterate on game mechanics faster than any traditional stack allows. The REPL lets us modify the running game without restarting. Type system is flexible when we're experimenting, strict when we need performance. SBCL compiles to native code that actually runs fast.
+
+That said, we reserve the right to rewrite the whole thing in Rust (or whatever the hell we want) once we know exactly what we're building. Lisp is for figuring out the design. Production might look different.
+
+
+
+-------------------------------------------------------------------------------
+[0xFF] APOLOGIA PRO VITA SUA CUM MACHINIS LOQUENTIBUS (LLMs)
+-------------------------------------------------------------------------------
+
+This game is shamelessly being built with LLMs.
+
+Not "assisted by" or "enhanced with." BUILT WITH. Claude writes the code. Codex along with a human devops engineer (TELECOMMUTER) audits and architects. I tell them what to build, they build it, I break it, we iterate. This is AI slop and we're proud of it.
+
+A cypherpunk MMO made by feeding prompts to a language model trained on the entire internet's worth of stolen open source code? That's not a compromise. That's the most thematically appropriate development process possible. The corps trained their panopticon on our repos and we're using it to build games about corporate collapse. Poetic.
+
+
+===============================================================================
+EOF
+===============================================================================

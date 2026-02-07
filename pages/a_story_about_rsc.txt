@@ -1,0 +1,471 @@
+-------------------------------------------------------------------------------
+[0x00] WHY THIS GAME EXISTS
+-------------------------------------------------------------------------------
+
+before CYPHERPUNK_2001, there was RuneScape Classic.
+
+before telecommuter, there was Rawh.
+
+this is the story of how a 13-year-old helped break a virtual monopoly,
+and why, decades later, that chaos still echoes in everything i build.
+
+RSC taught me that the best games aren't designed.
+they're emergent. player-driven. fragile. real.
+
+CYPHERPUNK_2001 is my attempt to recapture that feeling:
+the tension of RSC's wilderness,
+the aesthetic of Cyberpunk 2077,
+the MMO we all wished Cyberpunk 2077 had been,
+the belief that systems should be breakable
+by anyone clever enough to try.
+
+it's being shamelessly vibecoded by a devops engineer
+in his free time. no studio. no funding. just obsession
+and whatever mass hallucination the LLMs feel like today.
+
+this is where it started.
+
+
+-------------------------------------------------------------------------------
+[0xRSC] THE LOST RUNE ECONOMY WAR
+-------------------------------------------------------------------------------
+
+
+        "Bro you had to be there."
+                — every RuneScape Classic veteran, forever
+
+
+How a Bunch of Kids Built Zezima, Broke Rune, and Accidentally Rewrote Classic
+
+
+Alright. So people keep talking about "old school RuneScape" like it's 2007 scims and whip specs.
+
+Nah.
+
+I'm talking REAL old school.
+RuneScape Classic old school.
+The era where the game felt like it was held together with duct tape, vibes, and the constant threat of your mom picking up the telephone, inadvertently disconnecting you mid-trade.
+
+This is a story from that era.
+
+It's about rune items.
+It's about money.
+It's about a monopoly.
+And it's about a bunch of kids who decided they were going to brute-force their way into the riches of the game.
+
+Also: yes, I'm one of them.
+
+I was Rawh. I was 13.
+And this is what actually happened.
+
+
+-------------------------------------------------------------------------------
+[0x01] THE RUNE MONOPOLY
+-------------------------------------------------------------------------------
+
+If you started Classic late, you don't understand how insane rune items were.
+
+Rune wasn't "gear."
+
+Rune was a STATUS SYMBOL.
+
+Because in early Classic there was basically one truth:
+
+Only one person could smith rune. It was a small club, and you weren't in it.
+
+And for a while, the only name that mattered was:
+
+Bluerose13x.
+
+She could smith rune.
+Which meant rune gear wasn't a normal market item.
+
+It was like trying to buy diamonds from the only person in town who owns the mine and also sets the prices and also decides if you deserve to even speak to them.
+
+If you wanted rune:
+    - you paid insane prices
+    - you waited
+    - you hoped the seller wasn't "busy"
+    - and if you didn't have connections, you were basically out
+
+So to a bunch of kids watching Varrock like it was Wall Street, there was one obvious conclusion:
+
+        "If we can create another 99 smith, we can break the monopoly.
+         And if we break the monopoly, we get rich AND become part of history."
+
+So yeah. We formed a crew.
+
+
+-------------------------------------------------------------------------------
+[0x02] THE CREW
+-------------------------------------------------------------------------------
+
+AKA the Future Economic Criminals of Varrock
+
+Core squad:
+
+    - Rawh (me)
+    - daw0rm01
+    - Cooltaxidriv
+    - Jerunk
+
+We were best friends, not random clannies.
+We were on MSN. We were scheming constantly.
+And we had one shared goal:
+
+Become stupid rich in Classic.
+
+We weren't trying to "have fun."
+
+We were trying to BREAK INTO THE TOP OF THE ECONOMY.
+
+Because Classic wasn't just grinding levels. Classic was realizing the economy had chokepoints and if you owned a chokepoint, you basically owned the game.
+
+And the biggest chokepoint was:
+
+Rune Smithing.
+
+So we went hunting for a smith.
+
+
+-------------------------------------------------------------------------------
+[0x03] DHORASOO, THE ALMOST-CHOSEN-ONE
+-------------------------------------------------------------------------------
+
+First we found Dhorasoo.
+
+She was smithing nonstop and already in her 70s.
+
+Back then, a 70+ skill wasn't "pretty good," it was MYTHICAL.
+So I brought her to the crew like:
+
+        "Guys. This is it. We found the key."
+
+We fed her supplies. We supported her.
+We got her to the 80s.
+
+And then Classic happened:
+
+She got exhausted and quit the game.
+Just straight up dipped.
+
+And we were sitting there like:
+
+ARE YOU KIDDING ME.
+
+Because we didn't need someone who liked smithing.
+
+We needed someone who could survive the 80-99 grind in Classic, which is basically a spiritual endurance test designed by medieval monks.
+
+So we regrouped.
+
+
+-------------------------------------------------------------------------------
+[0x04] FINDING ZEZIMA (BEFORE HE WAS ZEZIMA)
+-------------------------------------------------------------------------------
+
+After Dhorasoo quit, daw0rm01 and Cooltaxidriv found someone new:
+
+Zezima.
+
+And listen: he wasn't the Zezima you think of now.
+
+At the time he was around level 80.
+Just a guy climbing.
+
+But he had something different:
+
+    - discipline
+    - consistency
+    - the ability to actually finish
+
+We looked at him and went:
+
+        "Yeah. This one can do it."
+
+So we formed what we called:
+
+THE Z-CLAN
+
+We even had a Geocities page that I made (which is probably dead forever unless the Wayback gods have mercy).
+
+We may have been some earlier thing like "Knights of Truth" at one point, because we were 13 and dramatic as hell, but the real era was the Z-Clan era.
+
+And the plan was simple:
+
+We get Zezima to 99 Smithing.
+
+
+-------------------------------------------------------------------------------
+[0x05] HOW YOU ACTUALLY POWER-LEVELED SMITHING IN CLASSIC
+-------------------------------------------------------------------------------
+
+Modern players think smithing is "click an anvil for 12 hours."
+
+No.
+
+In Classic, getting someone to 99 smithing was logistics.
+It was supply lines.
+It was a literal medieval industrial operation.
+
+So we did what any group of motivated Classic kids would do:
+
+We became the supply chain.
+
+
+BAR RUNNING (Jerunk the Mule)
+
+We used Jerunk's character as a runner.
+
+We char-shared. Everybody did.
+The account became a community vehicle.
+
+One of us would log onto Jerunk and run bars back and forth so Zezima could just stand at the anvil and hammer nonstop.
+
+
+AUTOMATION (Rawh the Factory)
+
+I (Rawh) made autominer characters.
+
+Primitive, early-era automation.
+Not some modern botnet, just "I figured out how to get bars and I'm using it."
+
+And I fed iron bars into the Zezima machine like it was a furnace.
+
+
+FUNDING THE OPERATION (Spider Egg Hustle)
+
+And then you need money.
+
+So I had my hustle:
+
+I'd trade spider eggs for rune kite shields.
+
+Then I'd sell those rune kites in Varrock square every Saturday like it was a literal market day.
+
+Yes. Every Saturday.
+
+RuneScape Classic was a different universe.
+
+
+-------------------------------------------------------------------------------
+[0x06] MSN MESSENGER (THE TRUE CLAN HQ)
+-------------------------------------------------------------------------------
+
+If you weren't on MSN back then you don't understand how this worked.
+
+The game was only half the world.
+
+The real coordination was off-screen.
+
+MSN was:
+    - strategy meetings
+    - jokes
+    - gossip
+    - trade plans
+    - "who's running bars tonight"
+    - everything
+
+And it's where Zezima told me a detail that was just... normal in that era:
+
+He char-shared with his brother.
+He told me directly.
+
+And nobody cared.
+
+The vibe wasn't "purity."
+It was:
+
+        "Keep it moving. Keep the machine alive."
+
+Because we weren't building a person.
+
+We were building an outcome.
+
+
+-------------------------------------------------------------------------------
+[0x07] THE MOMENT IT WORKED
+-------------------------------------------------------------------------------
+
+And then it happened.
+
+Zezima hit 99 Smithing.
+
+We did it.
+
+We created the second pipeline.
+We broke the rune gate.
+We ended the monopoly era.
+
+And once there is more than one runesmith?
+
+Prices fall.
+Supply rises.
+Rune becomes common.
+
+We didn't just get rich.
+
+We helped shift the entire economy.
+
+Rune stopped being a sacred artifact and became a trade commodity for normal people.
+
+That was always the dream.
+
+It was supposed to make rune accessible.
+
+And yeah, it also inflated everything later and that's hilarious now, but at the time it felt like we'd changed the world.
+
+Because we had.
+
+
+-------------------------------------------------------------------------------
+[0x08] MCTAVISH AND THE 2001 LOBSTER DUPE
+-------------------------------------------------------------------------------
+
+Now here's the other side of Classic.
+
+Not the grinding side.
+
+The bug-and-chaos side.
+
+McTavish was around. On MSN. In the orbit.
+Supportive to Zezima.
+And obviously one of the richest people in the game.
+
+He wasn't a PKer.
+
+He was a MERCHANT.
+
+And at some point he told me how he got that rich:
+
+The 2001 lobster dupe bug.
+
+And that actually makes perfect sense.
+
+Because in 2001 Classic, lobsters weren't just food.
+
+Lobsters were currency.
+
+If you had stacks of them, you had liquid wealth.
+
+And if you hit a dupe window early enough in Classic?
+
+You didn't just make money.
+
+You PRINTED money.
+
+McTavish wasn't rich like "he flipped items."
+
+McTavish was rich like:
+
+        "he discovered a crack in the universe and walked through it."
+
+And it didn't feel like bragging when he talked about it.
+It felt like someone casually admitting they'd seen behind the curtain.
+
+Because Classic was a world where sometimes the economy didn't change slowly.
+
+Sometimes it changed in one night.
+
+
+-------------------------------------------------------------------------------
+[0xFF] THE REAL POINT
+-------------------------------------------------------------------------------
+
+People today talk about RuneScape history like it's patch notes and hiscores.
+
+But the real Classic history was built out of:
+
+    - kids making supply chains
+    - Saturday market days in Varrock
+    - MSN war rooms
+    - bar running
+    - hustle
+    - and the insane fact that one player's skill level could control an entire economy
+
+We didn't just "play RuneScape."
+
+We lived inside it.
+
+And for a brief window of time, we were part of the moment where rune stopped being a myth and started being normal.
+
+So yeah.
+
+That's the story.
+
+I was Rawh.
+We were the Z-Clan.
+We built Zezima's smithing rise.
+We helped break the rune monopoly.
+And we accidentally helped rewrite Classic forever.
+
+If you were there: you know.
+
+If you weren't:
+
+Bro... you had to be there.
+
+But you can't be there now.
+
+Because that was then.
+And then is not here.
+And then is past.
+
+Classic is gone. The servers are tombstones.
+The economy we broke has been broken a thousand times since.
+The wilderness we feared is a museum exhibit.
+
+You missed it.
+
+...
+
+But what if you didn't have to?
+
+What if we could do it again?
+
+Not a clone. Not a private server. Not nostalgia tourism.
+
+Something new.
+Same tension. Same emergent chaos. Same player-driven world.
+Different context. Different aesthetic. Different era. Different tech stack.
+
+That's CYPHERPUNK_2001.
+
+In RuneScape, everyone was an adventurer.
+In CYPHERPUNK, everyone is a survivor.
+
+RuneScape asked: "Can you make it to the top?"
+
+CYPHERPUNK asks: "What's the point of climbing?"
+...and then answers: "Who cares. Climb anyway."
+
+A collapsed future instead of a medieval fantasy.
+Neon instead of torchlight.
+Scrap metal instead of rune ore.
+
+But the same feeling:
+    - economies that players can break
+    - wildernesses where your inventory is only yours until it isn't
+    - reputations that follow you forever
+    - the belief that systems should be breakable by anyone clever enough to try
+
+I'm building it.
+And I want you to help me build it.
+
+Not just play it.
+BUILD it.
+
+Join the Discord. Break things. Find exploits. Tell stories.
+Be part of the moment before it becomes history.
+
+Because someday, someone will write about what we did here.
+And they'll end the story the same way:
+
+"Bro... you had to be there."
+
+Let's make sure they're right.
+
+
+===============================================================================
+EOF
+===============================================================================

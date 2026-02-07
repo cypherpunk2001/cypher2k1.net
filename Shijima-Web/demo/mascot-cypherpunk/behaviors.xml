@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Mascot xmlns="http://www.group-finity.com/Mascot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.group-finity.com/Mascot Mascot.xsd">
+
+	<BehaviorList>
+
+		<!-- ALWAYS REQUIRED -->
+		<Behavior Name="ChaseMouse" Frequency="0" Hidden="true">
+			<NextBehavior Add="false">
+				<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="1" />
+			</NextBehavior>
+		</Behavior>
+
+		<!-- ALWAYS REQUIRED -->
+		<Behavior Name="Fall" Frequency="0" Hidden="true" />
+
+		<!-- ALWAYS REQUIRED -->
+		<Behavior Name="Dragged" Frequency="0" Hidden="true" />
+
+		<!-- ALWAYS REQUIRED -->
+		<Behavior Name="Thrown" Frequency="0" Hidden="true" />
+
+		<!-- On the Floor - ALL floor behaviors consolidated here -->
+		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor)}">
+			<!-- Movement - high frequency -->
+			<Behavior Name="WalkAlongWorkAreaFloor" Frequency="200" />
+			<Behavior Name="RunAlongWorkAreaFloor" Frequency="150" />
+
+			<!-- Laptop work - signature move -->
+			<Behavior Name="WorkOnLaptop" Frequency="120">
+				<NextBehavior Add="false">
+					<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="150" />
+					<BehaviorReference Name="DrinkBreak" Frequency="50" />
+					<BehaviorReference Name="WorkOnLaptop" Frequency="80" />
+				</NextBehavior>
+			</Behavior>
+
+			<!-- Wall climbing -->
+			<Behavior Name="WalkToLeftWallAndClimb" Frequency="80" />
+			<Behavior Name="WalkToRightWallAndClimb" Frequency="80" />
+
+			<!-- Ceiling jump (cooldown handled in JS) -->
+			<Behavior Name="JumpToCeiling" Frequency="60" />
+
+			<!-- Resting - lower frequency -->
+			<Behavior Name="SitDown" Frequency="30">
+				<NextBehavior Add="false">
+					<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="200" />
+					<BehaviorReference Name="WorkOnLaptop" Frequency="100" />
+				</NextBehavior>
+			</Behavior>
+
+			<Behavior Name="DrinkBreak" Frequency="20">
+				<NextBehavior Add="false">
+					<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="200" />
+					<BehaviorReference Name="WorkOnLaptop" Frequency="80" />
+				</NextBehavior>
+			</Behavior>
+
+			<Behavior Name="LieDown" Frequency="10">
+				<NextBehavior Add="false">
+					<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="200" />
+				</NextBehavior>
+			</Behavior>
+
+			<Behavior Name="TakeNap" Frequency="5">
+				<NextBehavior Add="false">
+					<BehaviorReference Name="WalkAlongWorkAreaFloor" Frequency="200" />
+				</NextBehavior>
+			</Behavior>
+		</Condition>
+
+		<!-- On the Wall -->
+		<Condition Condition="#{ mascot.lookRight ? (
+					mascot.environment.workArea.rightBorder.isOn(mascot.anchor) ||
+					mascot.environment.activeIE.leftBorder.isOn(mascot.anchor) ) : (
+					mascot.environment.workArea.leftBorder.isOn(mascot.anchor) ||
+					mascot.environment.activeIE.rightBorder.isOn(mascot.anchor) ) }">
+			<Behavior Name="ClimbUpWall" Frequency="150" />
+			<Behavior Name="ClimbWallToCeiling" Frequency="100" />
+			<Behavior Name="HoldOntoWall" Frequency="40" />
+			<Behavior Name="FallFromWall" Frequency="20" Condition="${!mascot.environment.floor.isOn(mascot.anchor)}" />
+		</Condition>
+
+		<!-- On the Ceiling -->
+		<Condition Condition="#{mascot.environment.ceiling.isOn(mascot.anchor)}">
+			<Behavior Name="CrawlAlongCeiling" Frequency="200" />
+			<Behavior Name="HoldOntoCeiling" Frequency="50" />
+			<Behavior Name="FallFromCeiling" Frequency="30" />
+		</Condition>
+
+	</BehaviorList>
+</Mascot>

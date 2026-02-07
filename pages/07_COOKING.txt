@@ -1,0 +1,62 @@
+
+-------------------------------------------------------------------------------
+[0x07] COOKING   ( C O O K I N G )
+-------------------------------------------------------------------------------
+
+
+        "civilization is heat applied correctly.
+         everything else is gambling."
+
+
+ cooking is not flavor.
+ cooking is sanitation.
+
+ heat kills parasites.
+ heat neutralizes poison.
+ heat turns biomass into rations.
+
+ only cooked matter restores health reliably.
+
+ this is not culture.
+ this is survival discipline.
+
+ fire makes it legal to live.
+
+
+ cooking transforms:
+
+ RAW SCAVENGE → BASIC RATIONS
+     removes most contamination
+     restores health slowly
+     anyone can do this
+
+ BASIC RATIONS → QUALITY MEALS
+     better restoration, longer buffs
+     requires skill, requires ingredients
+     trade value increases
+
+ QUALITY MEALS → SPECIALIZED FOOD
+     combat buffs, skill bonuses, resistance effects
+     high-level cooking, rare components
+     the difference between surviving and winning
+
+
+ cooking failures:
+     undercooked: contamination remains
+     burnt: nutrition destroyed
+     wrong combination: poison
+
+ higher cooking skill:
+     fewer failures, better results
+     ability to identify what you're working with
+     recipes unlock (discovered, traded, stolen)
+
+
+ a good cook never starves.
+ a good cook never fights alone.
+
+ share food: build trust.
+ poison food: end trust permanently.
+
+ the system remembers
+ every meal you've served.

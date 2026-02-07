@@ -1,0 +1,58 @@
+
+-------------------------------------------------------------------------------
+[0x0D] PROJECTILES   ( R A N G E D )
+-------------------------------------------------------------------------------
+
+
+        "every bullet is a confession.
+         every miss is evidence."
+
+
+ ranged combat is preparation.
+
+ every shot represents:
+     scavenged material
+     fabricated intent
+     calculated distance
+
+ miss and you lose resources.
+ hit and you leave evidence.
+
+ distance feels safe
+ until it collapses.
+
+
+ projectile weapons:
+
+ IMPROVISED (slings, thrown scrap)
+     low damage, cheap ammo, quiet
+     good for pulling singles
+     embarrassing but effective
+
+ MECHANICAL (crossbows, pneumatic launchers)
+     medium damage, reusable bolts
+     no power required
+     the rustborn standard
+
+ BALLISTIC (firearms, salvaged and fabricated)
+     high damage, loud, ammunition-hungry
+     syndicate gear, expensive to maintain
+     everyone hears, everyone investigates
+
+ ENERGY (rare, pre-collapse tech)
+     requires charged cells
+     devastating but conspicuous
+     marks you as someone worth robbing
+
+
+ ammunition is the real cost.
+ fabrication feeds the habit.
+ extraction feeds fabrication.
+ the loop never ends.
+
+ ranged specialists don't run out of ammo.
+ ranged specialists run out of targets
+ before the ammo runs out.
+
+ if you're counting shots,
+ you already lost.

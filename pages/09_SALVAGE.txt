@@ -1,0 +1,55 @@
+
+-------------------------------------------------------------------------------
+[0x09] SALVAGE   ( W O O D C U T T I N G )
+-------------------------------------------------------------------------------
+
+
+        "nothing was built to last.
+         everything was built to be sold."
+
+
+ there are no trees.
+ there are structures that stopped being maintained.
+
+ salvage is identifying lies:
+     load-bearing beams
+     synthwood panels
+     forgotten scaffolds
+
+ you are not chopping.
+ you are reclaiming matter
+ from abandoned intent.
+
+ cities rot differently than forests.
+
+
+ salvage yields:
+
+ SYNTHWOOD
+     composite building material, burns clean
+     fuel for ignition, material for construction
+     abundant in residential ruins
+
+ PLASTIITE
+     industrial polymer, flexible, strong
+     used in armor padding, insulation, seals
+     found in commercial zones, warehouses
+
+ ALLOY FRAMING
+     structural metal, lighter than scrap
+     high-tier fabrication ingredient
+     worth the climb to upper floors
+
+ INTACT GLASS
+     rare, fragile, valuable
+     optical components, trade goods
+     one wrong swing and it's worthless dust
+
+
+ better tools salvage faster.
+ higher skill identifies better cuts.
+ the building doesn't care how long you take.
+
+ but the player watching you
+ from across the street
+ might.

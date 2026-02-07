@@ -1,0 +1,52 @@
+
+-------------------------------------------------------------------------------
+[0x04] REPUTATION   ( H O N O R )
+-------------------------------------------------------------------------------
+
+
+        "forgiveness requires deletion.
+         the system doesn't delete."
+
+
+ reputation is memory with latency.
+
+ the system caches grudges.
+
+
+ every action writes to the ledger:
+     who you killed
+     who you helped
+     who saw you do it
+     who heard about it later
+
+ reputation is not a number.
+ reputation is a web.
+
+ high syndicate rep:
+     city access, corporate zones, clean gear
+     but the rustborn stop talking when you walk in
+     and the nullsect won't sell you glyphs
+
+ high rustborn rep:
+     best fabrication, fair trades, workshop access
+     but syndicate enforcers mark you as salvage
+     and corp zones require bribes
+
+ high nullsect rep:
+     anomaly training, corruption sources, forbidden knowledge
+     but everyone else thinks you're unstable
+     and maybe they're right
+
+ negative rep:
+     attack on sight
+     no trades
+     no shelter
+     hunted
+
+ reputation decays slowly.
+ reputation rebuilds slower.
+
+ the only way to clear your name
+ is to become someone else.
+
+ the system remembers that too.

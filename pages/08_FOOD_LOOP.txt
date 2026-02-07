@@ -1,0 +1,58 @@
+
+-------------------------------------------------------------------------------
+[0x08] FOOD LOOP
+-------------------------------------------------------------------------------
+
+
+        "find it. clean it. repeat.
+         this is the entire economy."
+
+
+ scavenging finds calories.
+ cooking makes them safe.
+
+ skip scavenging:
+     you starve.
+
+ skip cooking:
+     you gamble.
+
+ the world is poisoned just enough
+ to punish shortcuts.
+
+ autonomy requires both.
+
+
+ the loop in practice:
+
+ PHASE 1: LOCATE
+     find water, find pools, find sources
+     higher scavenging reveals better spots
+     contested spots yield better catches
+     uncontested spots have reasons
+
+ PHASE 2: HARVEST
+     pull biomass, identify what you caught
+     contamination varies by source
+     rare catches exist (valuable, dangerous, both)
+
+ PHASE 3: PROCESS
+     fire required (ignition skill)
+     cooking skill determines outcome
+     time investment versus quality tradeoff
+
+ PHASE 4: CONSUME
+     health restoration
+     potential buffs (quality dependent)
+     potential debuffs (failure dependent)
+
+
+ the food loop is not optional.
+ the food loop is not exciting.
+ the food loop is the foundation
+ that everything else stands on.
+
+ players who master this
+ never worry about health.
+ players who skip this
+ become loot for players who didn't.

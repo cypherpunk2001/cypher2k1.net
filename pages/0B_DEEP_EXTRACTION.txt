@@ -1,0 +1,57 @@
+
+-------------------------------------------------------------------------------
+[0x0B] DEEP EXTRACTION   ( M I N I N G )
+-------------------------------------------------------------------------------
+
+
+        "they buried it for a reason.
+         you're digging for a different one."
+
+
+ mining is opening things
+ that were sealed on purpose.
+
+ beneath the city:
+     vaults
+     transit bones
+     buried infrastructure
+
+ beneath the wilderness:
+     mistakes
+     experiments
+     things best left quiet
+
+ depth increases pressure.
+ pressure reveals intent.
+
+
+ extraction targets:
+
+ SCRAP METAL (shallow)
+     common, heavy, essential for fabrication
+     found in collapsed structures, buried vehicles
+     every maker needs a supplier
+
+ RARE COMPONENTS (mid-depth)
+     circuit boards, intact wiring, sealed batteries
+     worth more than scrap by weight
+     rustborn pay premium for clean components
+
+ SEALED CACHES (deep)
+     pre-collapse storage, corporate vaults, military bunkers
+     risk increases with depth
+     crawlers nest in the dark
+     but the loot remembers what quality meant
+
+ CORRUPTION NODES (fracture-adjacent)
+     raw instability, anomaly fuel source
+     nullsect territory, officially
+     but they can't guard every vein
+
+
+ extraction requires tools.
+ tools require fabrication.
+ fabrication requires extraction.
+
+ the loop has no exit.
+ only deeper.

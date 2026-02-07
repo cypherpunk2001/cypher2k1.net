@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+[0xBUG] CYPHERPUNK 2001 // BUG BOUNTY PROGRAM
+-------------------------------------------------------------------------------
+
+
+        "break the system. earn your title.
+         this is how we build trust."
+
+
+===============================================================================
+= DISCLOSURE PROTOCOL                                                         =
+===============================================================================
+
+
+[0x00] THE DEAL
+
+ find something broken?
+ tell us before exploiting it.
+ we'll make it worth your while.
+
+ honored titles. permanent recognition.
+ visible when players inspect you.
+
+ we'd rather have you as an ally than an adversary.
+
+
+-------------------------------------------------------------------------------
+
+
+[0x01] WHAT WE'RE LOOKING FOR
+
+ bugs that matter most.
+
+
+ GAMEPLAY EXPLOITS
+ ─────────────────
+   bugs that give players an unfair advantage or allow
+   them to bypass intended game mechanics.
+
+   REWARD: TBD
+
+
+ ECONOMY THREATS
+ ───────────────
+   item duplication
+   currency generation
+   trade window manipulation
+   market exploits
+
+   REWARD: special in-game title (visible to all players) + statue in the hall of fame gardens
+
+
+ CRITICAL INFRASTRUCTURE
+ ───────────────────────
+   authentication bypass
+   account compromise vectors
+   server instability
+   data exposure
+
+   REWARD: special in-game title (visible to all players) + statue in the hall of fame gardens
+
+
+-------------------------------------------------------------------------------
+
+
+[0x02] HOW TO REPORT
+
+ 1. document it
+    - steps to reproduce
+    - what happens vs what should happen
+    - screenshots or video helps
+
+ 2. submit privately
+    - discord: DM @telecommuter directly
+
+
+===============================================================================
+EOF // BUG_BOUNTY
+===============================================================================
